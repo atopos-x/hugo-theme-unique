@@ -1,5 +1,5 @@
 # 注意！！！
-# 原作者（不更新了）：https://github.com/loveminimal/hugo-theme-virgo/tree/1.x
+## 原作者（不更新了）：https://github.com/loveminimal/hugo-theme-virgo/tree/1.x
 > 我们应该用一种真心让自己感觉到舒适的方式去生活，不就奢华，不饰节俭。
 
 
