@@ -102,8 +102,6 @@
 
     .highlight {
         margin: 16px 0;
-        border-top: 1px solid $highlight-color;
-        // border-bottom: 2px solid $highlight-color;
         padding: 2px 0;
         font-size: 0.14rem;
         overflow: hidden;
@@ -112,16 +110,18 @@
         }
 
         pre {
-            padding-top: 0;
+            //padding-top: 0;
         }
     }
 
     pre {
         font-size: 0.14rem;
-        border-top: 1px solid $highlight-color;
-        border-bottom: 1px solid $highlight-color;
+        background-color: $gray-white-600!important;
+        border-top: 2px solid $gray-300;
+        border-bottom: 2px solid $gray-300;
+        border-radius: 5px;
 
-        padding: 12px 0;
+        padding: 10px 20px;
         overflow: hidden;
 
         &:hover {
@@ -129,10 +129,14 @@
         }
 
         .lang {
+            position : relative;
             cursor: pointer;
-            margin-bottom: 16px;
-            padding: 4px 0px;
-            border-bottom: 1px dashed $gray-200;
+            font-family: segoe script,lxgw wenkai screen;
+            color: $gray-500;
+            float: right;
+            top: -10px;
+            right: -15px;
+            font-size: 0.15rem;
         }
     }
 

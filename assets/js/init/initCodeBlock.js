@@ -35,13 +35,13 @@ export default function initCodeBlock() {
 
 		if (!isShow) _this.css('display', 'none');
 
-		$(this).before(`<div class="lang" id="${_id}">${isShow ? _lang + ' ▽' : _lang + ' ▷'}</div>`)
+		$(this).before(`<div class="lang" id="${_id}">${isShow ? _lang + ' 🙂' : _lang + ' 🙃'}</div>`)
 		let _langEle = $('#' + _id);
 
 		_langEle.click(function () {
 			_this.toggle();
 			isShow = !isShow;
-			_langEle.html(isShow ? `${_lang} ▽` : `${_lang} ▷`)
+			_langEle.html(isShow ? `${_lang} 🙂` : `${_lang} 🙃`)
 		});
 
 	})
